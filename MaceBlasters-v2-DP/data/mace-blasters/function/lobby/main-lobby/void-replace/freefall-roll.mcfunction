@@ -1,2 +1,0 @@
-execute in mace-blasters:mace as @a[x=-104,y=171,z=-109,dx=216,dy=4,dz=225,limit=1,sort=nearest] store result score @s lobby_platform_random run random value 1..2
-schedule function mace-blasters:lobby/main-lobby/void-replace/freefall-platform 1t replace

@@ -1,6 +1,5 @@
 {
   "values": [
-    "mace-blasters:lobby/main-lobby/main",
-    "mace-blasters:lobby/credits-lobby/credits"
+    "mace-blasters:tick"
   ]
 }

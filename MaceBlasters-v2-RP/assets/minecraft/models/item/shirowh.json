@@ -172,51 +172,6 @@
 			}
 		}
 	],
-	"groups": [
-		{
-			"name": "Waist",
-			"origin": [8, 12, 8],
-			"color": 0,
-			"children": [
-				{
-					"name": "Head",
-					"origin": [8, 24, 8],
-					"color": 0,
-					"children": [0, 1]
-				},
-				{
-					"name": "Body",
-					"origin": [8, 24, 8],
-					"color": 0,
-					"children": [2, 3]
-				},
-				{
-					"name": "Right Arm",
-					"origin": [13, 22, 8],
-					"color": 0,
-					"children": [4, 5]
-				},
-				{
-					"name": "Left Arm",
-					"origin": [3, 22, 8],
-					"color": 0,
-					"children": [6, 7]
-				}
-			]
-		},
-		{
-			"name": "Right Leg",
-			"origin": [9.9, 12, 8],
-			"color": 0,
-			"children": [8, 9]
-		},
-		{
-			"name": "Left Leg",
-			"origin": [6.1, 12, 8],
-			"color": 0,
-			"children": [10, 11]
-		}
-	],
   "display": {
     "head": {
       "rotation": [0, 0, 0],

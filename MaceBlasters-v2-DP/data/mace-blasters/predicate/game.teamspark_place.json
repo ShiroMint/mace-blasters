@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:location": {
+      "position": {
+        "x": {
+          "min": -11.5,
+          "max": -7.5
+        },
+        "y": {
+          "min": 216,
+          "max": 217
+        },
+        "z": {
+          "min": 31.5,
+          "max": 35.5
+        }
+      },
+      "dimension": "mace-blasters:mace"
+    }
+  }
+}

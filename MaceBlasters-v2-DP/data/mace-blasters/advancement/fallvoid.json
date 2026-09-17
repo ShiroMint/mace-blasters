@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "achievement-fallvoid"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancement.title_fallvoid",
+      "fallback": "advancement.title_fallvoid",
+      "color": "dark_purple",
+      "bold": false
+    },
+    "description": {
+      "translate": "advancement.description_fallvoid",
+      "fallback": "advancement.description_fallvoid",
+      "color": "yellow",
+      "bold": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "mace-blasters:catpu",
+  "criteria": {
+    "touch biome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "biomes": "mace-blasters:below_lobby"
+          }
+        }
+      }
+    }
+  }
+}

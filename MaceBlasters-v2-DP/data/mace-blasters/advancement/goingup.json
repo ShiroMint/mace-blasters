@@ -10,36 +10,61 @@
         }
       },
       "count": 1
-     },
-    "title": {"translate":"advancement.title_goingup"},
-    "description": {"translate":"advancement.description_goingup"},
-     "frame": "task",
+    },
+    "title": {
+      "translate": "advancement.title_goingup",
+      "fallback": "advancement.title_goingup",
+      "type": "translatable",
+      "bold": true
+    },
+    "description": {
+      "translate": "advancement.description_goingup",
+      "fallback": "advancement.description_goingup",
+      "with": [
+        {
+          "translate": "advancement.description_goingup.1",
+          "fallback": "advancement.description_goingup.1",
+          "bold": true
+        },
+        {
+          "translate": "advancement.description_goingup.2",
+          "fallback": "advancement.description_goingup.2",
+          "color": "dark_aqua",
+          "bold": true
+        },
+        {
+          "translate": "advancement.description_goingup.3",
+          "fallback": "advancement.description_goingup.3",
+          "color": "gold",
+          "bold": true
+        }
+      ],
+      "type": "translatable"
+    },
+    "frame": "task",
     "show_toast": true,
-    "announce_to_chat": false,
-    "hidden": true
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "mace-blasters:catse",
   "criteria": {
-    "orange tower": {
+    "blue tower": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player"
-          },
-          "location": {
+          "minecraft:location": {
             "position": {
               "x": {
-                "min": -11,
-                "max": -9
+                "min": 7.7,
+                "max": 9.3
               },
               "y": {
-                "min": 319,
-                "max": 322
+                "min": 314,
+                "max": 318
               },
               "z": {
-                "min": 33,
-                "max": 35
+                "min": 33.7,
+                "max": 35.3
               }
             },
             "dimension": "mace-blasters:mace"
@@ -47,26 +72,23 @@
         }
       }
     },
-    "blue tower": {
+    "orange tower": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player"
-          },
-          "location": {
+          "minecraft:location": {
             "position": {
               "x": {
-                "min": 9,
-                "max": 11
+                "min": -11.3,
+                "max": -9.7
               },
               "y": {
-                "min": 319,
-                "max": 322
+                "min": 314,
+                "max": 318
               },
               "z": {
-                "min": 30,
-                "max": 32
+                "min": 33.7,
+                "max": 35.3
               }
             },
             "dimension": "mace-blasters:mace"

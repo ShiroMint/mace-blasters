@@ -1,1 +1,1 @@
-execute in mace-blasters:mace as @a[x=-104,y=189,z=-109,dx=216,dy=4,dz=225] run advancement grant @p only mace-blasters:plattp
+advancement grant @s[x=-104,y=189,z=-109,dx=216,dy=4,dz=225] only mace-blasters:fallvoid

@@ -1,0 +1,162 @@
+{
+  "type": "minecraft:server_links",
+  "title": {
+    "translate": "c_d_t"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate": "credits.msg_axiom",
+          "fallback": "credits.msg_axiom",
+          "click_event": {
+            "action": "open_url",
+            "url": "https://axiom.moulberry.com/"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "translate": "credits.hover_axiom",
+              "fallback": "credits.hover_axiom"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "credits.msg_misode",
+        "fallback": "credits.msg_misode",
+        "click_event": {
+          "action": "open_url",
+          "url": "https://misode.github.io/"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "translate": "credits.hover_misode",
+            "fallback": "credits.hover_misode"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "credits.msg_heads",
+        "fallback": "credits.msg_heads",
+        "click_event": {
+          "action": "open_url",
+          "url": "https://minecraft-heads.com/"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "translate": "credits.hover_heads",
+            "fallback": "credits.hover_heads"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "credits.msg_blockbench",
+        "fallback": "credits.msg_blockbench",
+        "click_event": {
+          "action": "open_url",
+          "url": "https://www.blockbench.net/"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "translate": "credits.hover_blockbench",
+            "fallback": "credits.hover_blockbench"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "credits.msg_rpcreator",
+        "fallback": "credits.msg_rpcreator",
+        "click_event": {
+          "action": "open_url",
+          "url": "https://resourcepackcreator.com/"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "translate": "credits.hover_rpcreator",
+            "fallback": "credits.hover_rpcreator"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "credits.msg_nsf",
+        "fallback": "credits.msg_nsf",
+        "click_event": {
+          "action": "open_url",
+          "url": "https://github.com/AmberWat/NegativeSpaceFont"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "translate": "credits.hover_nsf",
+            "fallback": "credits.hover_nsf"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "credits.msg_stacker",
+        "fallback": "credits.msg_stacker",
+        "click_event": {
+          "action": "open_url",
+          "url": "https://mcstacker.net/"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "translate": "credits.hover_stacker",
+            "fallback": "credits.hover_stacker"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "credits.msg_zeronia",
+        "fallback": "credits.msg_zeronia",
+        "click_event": {
+          "action": "open_url",
+          "url": "https://zeronia.org/"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "translate": "credits.hover_zeronia",
+            "fallback": "credits.hover_zeronia"
+          }
+        }
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "exit_action": {
+    "label": {
+      "translate": "credits.dialog_exit",
+      "fallback": "credits.dialog_exit"
+    }
+  }
+}

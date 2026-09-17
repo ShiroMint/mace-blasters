@@ -27,21 +27,7 @@
           "type": "model",
           "model": "item/vorticepen"
       }
-      },
-	  {
-        "when": "portal",
-        "model": {
-          "type": "model",
-          "model": "item/portal"
-      }
-      },
-	  {
-        "when": "addy",
-        "model": {
-          "type": "model",
-          "model": "item/addy"
-      }
-      },	  
+      },  
     {
         "when": "logro-catpu",
         "model": {
@@ -61,6 +47,41 @@
         "model": {
           "type": "model",
           "model": "item/evtema"
+      }
+      },
+      {
+        "when": "logo",
+        "model": {
+          "type": "model",
+          "model": "item/logo"
+      }
+      },
+      {
+        "when": "skyreapers",
+        "model": {
+          "type": "model",
+          "model": "item/skyreapers"
+      }
+      },
+      {
+        "when": "blueskull",
+        "model": {
+          "type": "model",
+          "model": "item/blueskull"
+      }
+      },
+      {
+        "when": "orangeskull",
+        "model": {
+          "type": "model",
+          "model": "item/orangeskull"
+      }
+      },
+      {
+        "when": "spark",
+        "model": {
+          "type": "model",
+          "model": "item/sparks"
       }
       }
     ]
