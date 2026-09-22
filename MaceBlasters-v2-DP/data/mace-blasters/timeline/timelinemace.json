@@ -4,19 +4,11 @@
   "time_markers": {
     "mace-blasters:day": {
       "show_in_commands": true,
-      "ticks": 1000
-    },
-    "mace-blasters:midnight": {
-      "show_in_commands": true,
-      "ticks": 18000
+      "ticks": 8000
     },
     "mace-blasters:night": {
       "show_in_commands": true,
-      "ticks": 13000
-    },
-    "mace-blasters:noon": {
-      "show_in_commands": true,
-      "ticks": 6000
+      "ticks": 18000
     },
     "minecraft:roll_village_siege": 18000,
     "minecraft:wake_up_from_sleep": 0
