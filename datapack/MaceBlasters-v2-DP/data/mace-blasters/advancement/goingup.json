@@ -1,0 +1,108 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "logro-goingup"
+          ]
+        }
+      },
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.title_goingup",
+      "fallback": "advancement.title_goingup",
+      "type": "translatable",
+      "bold": true
+    },
+    "description": {
+      "translate": "advancement.description_goingup",
+      "fallback": "advancement.description_goingup",
+      "with": [
+        {
+          "translate": "advancement.description_goingup.1",
+          "fallback": "advancement.description_goingup.1",
+          "bold": true
+        },
+        {
+          "translate": "advancement.description_goingup.2",
+          "fallback": "advancement.description_goingup.2",
+          "color": "dark_aqua",
+          "bold": true
+        },
+        {
+          "translate": "advancement.description_goingup.3",
+          "fallback": "advancement.description_goingup.3",
+          "color": "gold",
+          "bold": true
+        }
+      ],
+      "type": "translatable"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mace-blasters:catse",
+  "criteria": {
+    "blue tower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "position": {
+              "x": {
+                "min": 7.7,
+                "max": 9.3
+              },
+              "y": {
+                "min": 314,
+                "max": 318
+              },
+              "z": {
+                "min": 33.7,
+                "max": 35.3
+              }
+            },
+            "dimension": "mace-blasters:mace"
+          }
+        }
+      }
+    },
+    "orange tower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "position": {
+              "x": {
+                "min": -11.3,
+                "max": -9.7
+              },
+              "y": {
+                "min": 314,
+                "max": 318
+              },
+              "z": {
+                "min": 33.7,
+                "max": 35.3
+              }
+            },
+            "dimension": "mace-blasters:mace"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blue tower"
+    ],
+    [
+      "orange tower"
+    ]
+  ]
+}

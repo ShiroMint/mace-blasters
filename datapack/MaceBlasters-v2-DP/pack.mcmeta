@@ -1,0 +1,19 @@
+{
+    "pack": {
+        "description": "MaceBlasters v2 Data Pack",
+        "min_format": [94, 1],
+        "max_format": [101, 1]
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "^minecraft$",
+                "path": "recipe/.*"
+            },
+            {
+                "namespace": "^minecraft$",
+                "path": "advancement/.*"
+            }
+        ]
+    }
+}

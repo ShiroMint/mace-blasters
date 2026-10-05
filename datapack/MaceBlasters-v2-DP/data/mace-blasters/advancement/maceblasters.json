@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mace",
+      "components": {
+        "minecraft:enchantments": {}
+      },
+      "count": 1
+    },
+    "title": {"translate":"advancement.title_maceblasters"},
+    "description": {"translate":"advancement.description_maceblasters"},
+    "background": "minecraft:block/green_concrete",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "sends_telemetry_event": false
+}
