@@ -32,8 +32,12 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
-            "biomes": "mace-blasters:below_lobby"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "biomes": "mace-blasters:below_lobby"
+            }
           }
         }
       }
