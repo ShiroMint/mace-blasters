@@ -52,22 +52,26 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
-            "position": {
-              "x": {
-                "min": 7.7,
-                "max": 9.3
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "position": {
+                "x": {
+                  "min": 7.7,
+                  "max": 9.3
+                },
+                "y": {
+                  "min": 314,
+                  "max": 318
+                },
+                "z": {
+                  "min": 33.7,
+                  "max": 35.3
+                }
               },
-              "y": {
-                "min": 314,
-                "max": 318
-              },
-              "z": {
-                "min": 33.7,
-                "max": 35.3
-              }
-            },
-            "dimension": "mace-blasters:mace"
+              "dimension": "mace-blasters:mace"
+            }
           }
         }
       }
@@ -76,22 +80,26 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:location": {
-            "position": {
-              "x": {
-                "min": -11.3,
-                "max": -9.7
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "position": {
+                "x": {
+                  "min": -11.3,
+                  "max": -9.7
+                },
+                "y": {
+                  "min": 314,
+                  "max": 318
+                },
+                "z": {
+                  "min": 33.7,
+                  "max": 35.3
+                }
               },
-              "y": {
-                "min": 314,
-                "max": 318
-              },
-              "z": {
-                "min": 33.7,
-                "max": 35.3
-              }
-            },
-            "dimension": "mace-blasters:mace"
+              "dimension": "mace-blasters:mace"
+            }
           }
         }
       }

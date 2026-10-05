@@ -3,8 +3,6 @@ function mace-blasters:lobby/main-lobby/advancements/below-lobby
 function mace-blasters:lobby/main-lobby/team-selector/jointeam
 function mace-blasters:lobby/main-lobby/minigame/main-minigame
 
-say test!
-
 # Main Lobby Peculiarities
 
 effect give @a[x=-16,y=211,z=-4,dx=31,dy=108,dz=43] regeneration 1 255 true
