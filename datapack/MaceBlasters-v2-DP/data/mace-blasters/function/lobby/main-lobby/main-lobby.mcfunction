@@ -42,9 +42,16 @@ execute if entity @a[x=0,tag=lobby.particles.50] run particle dust{color:[1.000,
 execute if entity @a[x=0,tag=lobby.particles.50] run particle dust{color:[1.000,0.671,0.098],scale:1} -10 216 31 0.90 0 0 0 2 force
 
 # Partículas selector owner de la pantalla
-execute if entity @a[x=0,tag=lobby.particles.50] run particle dust{color:[0.490,0.490,0.490],scale:1} 3.9999 216 31 0 0 -0.7 0 2 force
-execute if entity @a[x=0,tag=lobby.particles.50] run particle dust{color:[0.490,0.490,0.490],scale:1} -2.9999 216 31 0 0 -0.7 0 2 force
-execute if entity @a[x=0,tag=lobby.particles.50] run particle dust{color:[0.490,0.490,0.490],scale:1} 0 216 29.9 -1.5 0 0 0 2 force
+execute if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=1}] run particle dust{color:[0.490,0.490,0.490],scale:1} 3.9999 216 31 0 0 -0.7 0 2 force
+execute if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=1}] run particle dust{color:[0.490,0.490,0.490],scale:1} -2.9999 216 31 0 0 -0.7 0 2 force
+execute if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=1}] run particle dust{color:[0.490,0.490,0.490],scale:1} 0 216 29.9 -1.5 0 0 0 2 force
+
+
+execute if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=2}] run particle dust{color:[0.220,0.220,0.220],scale:1} 3.9999 216 31 0 0 -0.7 0 2 force
+execute if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=2}] run particle dust{color:[0.220,0.220,0.220],scale:1} -2.9999 216 31 0 0 -0.7 0 2 force
+execute if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=2}] run particle dust{color:[0.220,0.220,0.220],scale:1} 0 216 29.9 -1.5 0 0 0 2 force
+
+# 1 = not an owner // 2 = owner // 3 = overrides owner (trigger)
 
 # Teleport Players to Credits Area
 
