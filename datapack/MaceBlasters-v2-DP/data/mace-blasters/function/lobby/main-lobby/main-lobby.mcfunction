@@ -40,7 +40,7 @@ execute if entity @a[x=0,tag=lobby.particles.50] run particle dust{color:[1.000,
 execute if entity @a[x=0,tag=lobby.particles.50] run particle dust{color:[1.000,0.671,0.098],scale:1} -12 216 33 0 0 0.90 0 2 force
 execute if entity @a[x=0,tag=lobby.particles.50] run particle dust{color:[1.000,0.671,0.098],scale:1} -10 216 31 0.90 0 0 0 2 force
 
-## Revisar esto! -> cambiado fuera de entorno OUT_REV
+## TODO Revisar esto! -> cambiado fuera de entorno
 # Partículas selector owner de la pantalla
 execute unless entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=2}] if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=1}] run particle dust{color:[0.490,0.490,0.490],scale:1} 3.9999 216 31 0 0 -0.7 0 2 force
 execute unless entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=2}] if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=1}] run particle dust{color:[0.490,0.490,0.490],scale:1} -2.9999 216 31 0 0 -0.7 0 2 force
@@ -56,11 +56,13 @@ execute unless entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=.
 
 # 1 = not an owner // 2 = owner // 3 = overrides owner (trigger)
 
-# Teleport Players to Credits Area
+## Teleport Players to Credits Area
+## TODO Revisar efecto blindness para que se vea smooth
 
+# Go to Credits Area
 effect give @a[x=-10,y=215,z=19,dx=0,dy=5,dz=4] minecraft:blindness 1 245 true
 tp @a[x=-10,y=215,z=19,dx=0,dy=5,dz=4] 500 216 500
 
-
+# Return from Credits Area
 effect give @a[x=502, y=216, z=499, dx=0, dy=4, dz=2] minecraft:blindness 1 245 true
 tp @a[x=502, y=216, z=499, dx=0, dy=4, dz=2] -8.00 216 21.52
