@@ -1,11 +1,11 @@
 # Añadir trigger de que si se esta encima de X altura se quita las windcharges
 # Trigger Zona + Global
 
-item replace entity @a[x=-116,y=206,z=-119,dx=214,dy=113,dz=236,scores={item.offhand.windcharge=1..},team=lobbyminigame] weapon.offhand with wind_charge[custom_name=[{"bold":true,"color":"#FFFFFF","text":"W"},{"color":"#EEEEEE","text":"i"},{"color":"#DEDEDE","text":"n"},{"color":"#CDCDCD","text":"d "},{"color":"#BCBCBC","text":"S"},{"color":"#ABABAB","text":"p"},{"color":"#9B9B9B","text":"h"},{"color":"#8A8A8A","text":"e"},{"color":"#797979","text":"r"},{"color":"#686868","text":"e"},{"color":"#474747","text":"s"}],unbreakable={}] 64
+item replace entity @a[x=-116,y=206,z=-119,dx=214,dy=113,dz=236,scores={item.offhand.windcharge=1..},team=team.lobbyminigame] weapon.offhand with wind_charge[custom_name=[{"bold":true,"color":"#FFFFFF","text":"W"},{"color":"#EEEEEE","text":"i"},{"color":"#DEDEDE","text":"n"},{"color":"#CDCDCD","text":"d "},{"color":"#BCBCBC","text":"S"},{"color":"#ABABAB","text":"p"},{"color":"#9B9B9B","text":"h"},{"color":"#8A8A8A","text":"e"},{"color":"#797979","text":"r"},{"color":"#686868","text":"e"},{"color":"#474747","text":"s"}],unbreakable={}] 64
 scoreboard players reset @a[x=0,scores={item.offhand.windcharge=1..}] item.offhand.windcharge
 
 gamemode adventure @a[x=-116,y=206,z=-119,dx=214,dy=113,dz=236,team=team.lobby]
-gamemode adventure @a[x=-116,y=206,z=-119,dx=214,dy=113,dz=236,team=lobbyminigame]
+gamemode adventure @a[x=-116,y=206,z=-119,dx=214,dy=113,dz=236,team=team.lobbyminigame]
 
 execute as @e[type=item] if items entity @s contents wind_charge run kill @s
 
