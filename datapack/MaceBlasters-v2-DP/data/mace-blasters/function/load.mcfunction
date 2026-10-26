@@ -5,4 +5,4 @@ scoreboard objectives add item.offhand.windcharge minecraft.used:minecraft.wind_
 team add team.lobby
 team add team.spark
 team add team.sky
-function mace-blasters:lobby/credits-lobby/particles-ev
+function mace-blasters:multiplayer/lobby/credits-lobby/particles-ev
