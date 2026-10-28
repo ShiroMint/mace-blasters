@@ -1,5 +1,25 @@
-# SINGLEPLAYER
+# DATAPACK:
+## SINGLEPLAYER
 1. Sistemas
     - Detección jugador (IN/OUT) de la zona de Singleplayer
-        - Note: Eliminar y separar todas las tags y cosas entre
-    - 
+        - Note: Eliminar y separar todas las tags y cosas entre ambos ya que SinglePlayer y Multiplayer son los dos grandes bloques.
+    - Sistema de bienvenida a Singleplayer por primera vez.
+
+## MULTIPLAYER
+
+## GENERAL
+1. Modificar y planear algunos ajustes de la Timeline o al menos dejarla vacía para empezar a trabajar sobre ella posteriormente.
+
+
+
+# RESOURCEPACK:
+1. Revisar si las máscaras "SkyReapers" y "Sparks" se pueden hacer "gobales" y no subsecuentes (XXX.1, XXX.2) de el string madre.
+    - Si se puede, crear varias máscaras globales para reutilizar
+    - Nota: Ver si se puede usar dentro del texto plano del RP como las máscaras (%X$s)
+
+
+# NOTAS PERSONALES:
+1. Aprender a usar Axiom y WorldEditr
+1.1. Practicar builds y construcciones y Level Design.
+2. Ampliar aprendizaje en comandos
+2.1. Aprender a usar los 'store' de los scoreboards.
