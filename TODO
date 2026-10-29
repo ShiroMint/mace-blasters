@@ -10,8 +10,7 @@
     - Sección con test de mecánica básica (una zona donde te dan y estas como si estuvieras en una arena).
     - Sección donde se prueban todos los powerups que puedes conseguir.
     - Sección donde se pueden probar todos los modificadores de arena.
-    - Camino hacia el Singleplayer.
-
+    - Camino hacia el Modo Singleplayer.
 2. Core Gameplay
     - Pantallas de gestión:
         - Distintas pantallas, al entrar al mundo siempre se pone la title screen con el nombre del minijuego y un start, tras eso el main menu.
@@ -19,24 +18,32 @@
         - Pantalla de accesibilidad: Distintos toggles y switches para ajustar la experiencia de juego a la que más se acomode al/los usuario(s).
         - Pantallas de juego en curso: Se dividen en 3 pero visualmente son muy parecidas, la separación reside principalmente en que cada pantalla teletransporte (espectar) los jugadores en el lobby al mapa correspondiente. Se podría hacer con una flag que detecte donde hay jugadores y bla bla bla pero esto es más sencillo.
         - Pantalla de detalles del mapa: Se puede clickar sobre el mapa para ver más detalles sobre él. En ella estará una imagen del mapa igual que en el menu, las fortalezas y debilidades del mapa, y un botón para espectar el mapa.
-        - Menu: La pantalla principal de la pantalla, en ella estará el selector de mapa, selector de cantidad de jugadores (cambios de dificultad), acceso a la pantalla de accesibilidad, acceso a los detalles del mapa,..
+        - Menu: La pantalla principal de la pantalla, en ella estará el selector de mapa, selector de cantidad de jugadores (cambios de dificultad), acceso a la pantalla de accesibilidad, acceso a los detalles del mapa, la modalidad (mejor de, teamkill, etc), ...
     - Partidas:
         - Asignar las armaduras, dar las herramientas (+El nuevo dash).
+        - Dependiendo de la cantidad de jugadores permitir ciertos mapas (toggle) y dentro de ese rango, según la cantidad de gente que haya variar la cantidad de modificadores (toggle de nivel de agresividad, la función seguirá exisitiendo y no será podrá desactivar).
+        - Los modificadores de arena estarán en las bossbars.
+        - Los powerups estarán a diferentes niveles en el aire, siempre será necesario dar un salto propulsado al menos para alcanzarlas, para recogerlas hay que matarlas (sirven de boosts). Máximo (nºjugadores - 2 hasta 2, donde 1), saldrán powerups de forma aleatoria y cada 7 a 20s. 
+        - Contador visual de vidas, golpes o lo que sea necesario para terminar la partida.
+        - Sistemas ya previos a la v2 (AntiSoftlock, Evitar que se vayan muy arriba, etc)
 
 ## GENERAL
 1. Modificar la Timeline y dejarla vacía y preparada para empezar a trabajar sobre ella posteriormente.
+2. En el lobby o en algún lugar deberían estar las normas e la info que en la v1 estaba en el libro.
+3. Idea para evitar que se queden arriba del lobby mucho tiempo y también de logro, si estas X tiempo arriba te hace un tp de vuelta a uno de los markers y te da un logro.
 
 
 
 # RESOURCEPACK:
-1. Revisar si las máscaras "SkyReapers" y "Sparks" se pueden hacer "gobales" y no subsecuentes (XXX.1, XXX.2) de el string madre.
+1. Revisar si las máscaras "SkyReapers" y "Sparks" se pueden hacer "gobales" y no subsecuentes (XXX.1, XXX.2) del string madre.
     - Si se puede, crear varias máscaras globales para reutilizar
-    - Nota: Ver si se puede usar dentro del texto plano del RP como las máscaras (%X$s)
+        - Nota: Ver si se puede usar dentro del texto plano del RP como las máscaras (%X$s)
 2. Preparar los sprites de los powerups y etc.
 
 
 # NOTAS PERSONALES:
 1. Aprender a usar Axiom y WorldEditr
-    - Practicar builds y construcciones y Level Design.
+    - Practicar builds, construcciones y Level Design.
 2. Ampliar aprendizaje en comandos
     - Aprender a usar los 'store' de los scoreboards.
+3. Ver si se puede usar JS o Python para embedar algunas funciones o mecanicas o usar java directamente en el código.
