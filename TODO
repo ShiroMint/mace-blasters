@@ -6,9 +6,25 @@
     - Sistema de bienvenida a Singleplayer por primera vez.
 
 ## MULTIPLAYER
+1. Zona de prácticas
+    - Sección con test de mecánica básica (una zona donde te dan y estas como si estuvieras en una arena).
+    - Sección donde se prueban todos los powerups que puedes conseguir.
+    - Sección donde se pueden probar todos los modificadores de arena.
+    - Camino hacia el Singleplayer.
+
+2. Core Gameplay
+    - Pantallas de gestión:
+        - Distintas pantallas, al entrar al mundo siempre se pone la title screen con el nombre del minijuego y un start, tras eso el main menu.
+        - La persona que esté dentro del área de dueño de la pantalla solo puede gestionarla excepto las personas que hagan el trigger para overridearla.
+        - Pantalla de accesibilidad: Distintos toggles y switches para ajustar la experiencia de juego a la que más se acomode al/los usuario(s).
+        - Pantallas de juego en curso: Se dividen en 3 pero visualmente son muy parecidas, la separación reside principalmente en que cada pantalla teletransporte (espectar) los jugadores en el lobby al mapa correspondiente. Se podría hacer con una flag que detecte donde hay jugadores y bla bla bla pero esto es más sencillo.
+        - Pantalla de detalles del mapa: Se puede clickar sobre el mapa para ver más detalles sobre él. En ella estará una imagen del mapa igual que en el menu, las fortalezas y debilidades del mapa, y un botón para espectar el mapa.
+        - Menu: La pantalla principal de la pantalla, en ella estará el selector de mapa, selector de cantidad de jugadores (cambios de dificultad), acceso a la pantalla de accesibilidad, acceso a los detalles del mapa,..
+    - Partidas:
+        - Asignar las armaduras, dar las herramientas (+El nuevo dash).
 
 ## GENERAL
-1. Modificar y planear algunos ajustes de la Timeline o al menos dejarla vacía para empezar a trabajar sobre ella posteriormente.
+1. Modificar la Timeline y dejarla vacía y preparada para empezar a trabajar sobre ella posteriormente.
 
 
 
@@ -16,10 +32,11 @@
 1. Revisar si las máscaras "SkyReapers" y "Sparks" se pueden hacer "gobales" y no subsecuentes (XXX.1, XXX.2) de el string madre.
     - Si se puede, crear varias máscaras globales para reutilizar
     - Nota: Ver si se puede usar dentro del texto plano del RP como las máscaras (%X$s)
+2. Preparar los sprites de los powerups y etc.
 
 
 # NOTAS PERSONALES:
 1. Aprender a usar Axiom y WorldEditr
-1.1. Practicar builds y construcciones y Level Design.
+    - Practicar builds y construcciones y Level Design.
 2. Ampliar aprendizaje en comandos
-2.1. Aprender a usar los 'store' de los scoreboards.
+    - Aprender a usar los 'store' de los scoreboards.
