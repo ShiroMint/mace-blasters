@@ -1,9 +1,17 @@
 # DATAPACK:
 ## SINGLEPLAYER
-1. Sistemas
+1. INICIO/ENTRADA
     - Detección jugador (IN/OUT) de la zona de Singleplayer
-        - Note: Eliminar y separar todas las tags y cosas entre ambos ya que SinglePlayer y Multiplayer son los dos grandes bloques.
+        - Nota: Eliminar y separar todas las tags y cosas entre ambos ya que SinglePlayer y Multiplayer son los dos grandes bloques.
     - Sistema de bienvenida a Singleplayer por primera vez.
+    - Lobby:
+        - Mob hablante de bienvenida (o quizás yo en armor stand), te explica donde estas y que haces ahí.
+            - Posteriormente se quedará en el lobby y podrás usarlo como display de stats del modo.
+                - Stats: Tiempo jugado en niveles, Niveles superados, Logros conseguidos, Cantidad de muertes, ...
+        - 4 Zonas, Training/Tutorial, Easy, Medium, Hard y zona secreta desbloqueable de challenges.
+    - Sección Training/Tutorial:
+        - Se enseñará que el armor stand está para dar info y pistas, en la bossbar aparecerá la red de niveles completados, en el scoreboard lateral estará info básica que se refresca cada nivel, ...
+
 
 ## MULTIPLAYER
 1. Zona de prácticas
@@ -21,7 +29,7 @@
         - Menu: La pantalla principal de la pantalla, en ella estará el selector de mapa, selector de cantidad de jugadores (cambios de dificultad), acceso a la pantalla de accesibilidad, acceso a los detalles del mapa, la modalidad (mejor de, teamkill, etc), ...
     - Partidas:
         - Asignar las armaduras, dar las herramientas (+El nuevo dash).
-        - Dependiendo de la cantidad de jugadores permitir ciertos mapas (toggle) y dentro de ese rango, según la cantidad de gente que haya variar la cantidad de modificadores (toggle de nivel de agresividad, la función seguirá exisitiendo y no será podrá desactivar).
+        - Dependiendo de la cantidad de jugadores permitir ciertos mapas (toggle) y dentro de ese rango, según la cantidad de gente que haya variar la cantidad de modificadores (toggle de nivel de agresividad, la mecánica seguirá exisitiendo y no se podrá desactivar).
         - Los modificadores de arena estarán en las bossbars.
         - Los powerups estarán a diferentes niveles en el aire, siempre será necesario dar un salto propulsado al menos para alcanzarlas, para recogerlas hay que matarlas (sirven de boosts). Máximo (nºjugadores - 2 hasta 2, donde 1), saldrán powerups de forma aleatoria y cada 7 a 20s. 
         - Contador visual de vidas, golpes o lo que sea necesario para terminar la partida.
@@ -30,7 +38,7 @@
 ## GENERAL
 1. Modificar la Timeline y dejarla vacía y preparada para empezar a trabajar sobre ella posteriormente.
 2. En el lobby o en algún lugar deberían estar las normas e la info que en la v1 estaba en el libro.
-3. Idea para evitar que se queden arriba del lobby mucho tiempo y también de logro, si estas X tiempo arriba te hace un tp de vuelta a uno de los markers y te da un logro.
+3. Idea para evitar que se queden arriba del lobby mucho tiempo y también de logro: si estas X tiempo arriba te hace un tp de vuelta a uno de los markers y te da un logro. "¡Aha! ¡Te pillé!"
 
 
 
