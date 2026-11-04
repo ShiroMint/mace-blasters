@@ -30,10 +30,22 @@
     - Partidas:
         - Asignar las armaduras, dar las herramientas (+El nuevo dash).
         - Dependiendo de la cantidad de jugadores permitir ciertos mapas (toggle) y dentro de ese rango, según la cantidad de gente que haya variar la cantidad de modificadores (toggle de nivel de agresividad, la mecánica seguirá exisitiendo y no se podrá desactivar).
-        - Los modificadores de arena estarán en las bossbars.
-        - Los powerups estarán a diferentes niveles en el aire, siempre será necesario dar un salto propulsado al menos para alcanzarlas, para recogerlas hay que matarlas (sirven de boosts). Máximo (nºjugadores - 2 hasta 2, donde 1), saldrán powerups de forma aleatoria y cada 7 a 20s. 
         - Contador visual de vidas, golpes o lo que sea necesario para terminar la partida.
         - Sistemas ya previos a la v2 (AntiSoftlock, Evitar que se vayan muy arriba, etc)
+    - Powerups:
+        - Los powerups estarán a diferentes niveles en el aire, siempre será necesario dar un salto propulsado al menos para alcanzarlas, para recogerlas hay que matarlas (sirven de boosts). Máximo (nºjugadores - 2 hasta 2, donde 1), saldrán powerups de forma aleatoria y cada 7 a 20s. 
+        - Tipos de Powerups:
+            - Placeholder
+    - Modificadores:
+        - Los modificadores de arena estarán en las bossbars donde se hará un display de su nombre y su duración.
+        - Tipos de Modificadores:
+            - Comunes:
+             - Duración -> Los comunes tienen una duración por defecto de entre 30s a 120s
+            - Raros:
+             - Duración -> Los raros tienen una duración por defecto de entre 15s a 60s
+            - Muy Raros:
+             - Duración -> Los muy raros tienen una duración por defecto de entre 5s a 30s
+             - Impacto ->
 
 ## GENERAL
 1. Modificar la Timeline y dejarla vacía y preparada para empezar a trabajar sobre ella posteriormente.
@@ -50,7 +62,7 @@
 
 
 # NOTAS PERSONALES:
-1. Aprender a usar Axiom y WorldEditr
+1. Aprender a usar Axiom y WorldEdit
     - Practicar builds, construcciones y Level Design.
 2. Ampliar aprendizaje en comandos
     - Aprender a usar los 'store' de los scoreboards.
