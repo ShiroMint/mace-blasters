@@ -71,11 +71,39 @@
                         - 1/2 Mediana
                         - 1 Mediana y 1/2 Fácil
                         - 1 Difícil
+                - PvP Mode! ->
+                    - La mecánica del juego se reemplazará por completo con el modo PvP
+                    - Los jugadores recibirán un kit de PvP formado por:
+                        - 1 manzana dorada.
+                        - Armadura de hierro.
+                        - Espada de diamante.
+                        - Escudo.
+                        - 2 pociones aleatorias entre:
+                            - Slowness
+                            - Instant Health
+                            - Poison
+                            - Weakness
+                            - Instant Damage
+                            - Freezing (26.4)
+                            - Wither
+                            - ...
+                            - Nota: Los efectos se limpiarán tras terminar el modificador.
+
 
 ## GENERAL
 1. Modificar la Timeline y dejarla vacía y preparada para empezar a trabajar sobre ella posteriormente.
 2. En el lobby o en algún lugar deberían estar las normas e la info que en la v1 estaba en el libro.
-3. Idea para evitar que se queden arriba del lobby mucho tiempo y también de logro: si estas X tiempo arriba te hace un tp de vuelta a uno de los markers y te da un logro. "¡Aha! ¡Te pillé!"
+3. IDEA:
+    - Para evitar que se queden arriba del lobby mucho tiempo y también de logro: si estas X tiempo arriba te hace un tp de vuelta a uno de los markers y te da un logro. "¡Aha! ¡Te pillé!"
+4. Efectos a lo largo del mapa:
+    - Singleplayer ->
+        - Regeneración, hambre infinita.
+    - Multiplayer ->
+        - Lobby: Idem a singleplayer
+        - Partida: Solo hambre infinita.
+5. IDEA: 
+    - Hacer que los dashes funcionen con la barra de la comida como el maná en algunos CTM.
+    - También podría usar la de oxígeno para otra cosa.
 
 
 
@@ -83,7 +111,10 @@
 1. Revisar si las máscaras "SkyReapers" y "Sparks" se pueden hacer "gobales" y no subsecuentes (XXX.1, XXX.2) del string madre.
     - Si se puede, crear varias máscaras globales para reutilizar
         - Nota: Ver si se puede usar dentro del texto plano del RP como las máscaras (%X$s)
-2. Preparar los sprites de los powerups y etc.
+2. Preparar los sprites de:
+    - Powerups
+    - Items
+    - GUI
 
 
 # NOTAS PERSONALES:
@@ -92,5 +123,7 @@
 2. Ampliar aprendizaje en comandos
     - Aprender a usar los 'store' de los scoreboards.
 3. Ver si se puede usar JS o Python para embedar algunas funciones o mecanicas o usar java directamente en el código.
+
+—————————————————————————————————————————————————————————————————————————————————————————
 
 no va: https://www.pccomponentes.com/monitor-asus-rog-swift-oled-pg32ucdp-32-woled-ultrahd-4k-240hz-g-sync-compatible-usb-c-dual-mode
