@@ -23,15 +23,28 @@
     - Pantallas de gestión:
         - Distintas pantallas, al entrar al mundo siempre se pone la title screen con el nombre del minijuego y un start, tras eso el main menu.
         - La persona que esté dentro del área de dueño de la pantalla solo puede gestionarla excepto las personas que hagan el trigger para overridearla.
-        - Pantalla de accesibilidad: Distintos toggles y switches para ajustar la experiencia de juego a la que más se acomode al/los usuario(s).
-        - Pantallas de juego en curso: Se dividen en 3 pero visualmente son muy parecidas, la separación reside principalmente en que cada pantalla teletransporte (espectar) los jugadores en el lobby al mapa correspondiente. Se podría hacer con una flag que detecte donde hay jugadores y bla bla bla pero esto es más sencillo.
-        - Pantalla de detalles del mapa: Se puede clickar sobre el mapa para ver más detalles sobre él. En ella estará una imagen del mapa igual que en el menu, las fortalezas y debilidades del mapa, y un botón para espectar el mapa.
-        - Menu: La pantalla principal de la pantalla, en ella estará el selector de mapa, selector de cantidad de jugadores (cambios de dificultad), acceso a la pantalla de accesibilidad, acceso a los detalles del mapa, la modalidad (mejor de, teamkill, etc), ...
+            - Pantalla de accesibilidad: Distintos toggles y switches para ajustar la experiencia de juego a la que más se acomode al/los usuario(s).
+            - Pantallas de juego en curso: Se dividen en 3 pero visualmente son muy parecidas, la separación reside principalmente en que cada pantalla teletransporte (espectar) los jugadores en el lobby al mapa correspondiente. Se podría hacer con una flag que detecte donde hay jugadores y bla bla bla pero esto es más sencillo.
+            - Pantalla de detalles del mapa: Se puede clickar sobre el mapa para ver más detalles sobre él. En ella estará una imagen del mapa igual que en el menu, las fortalezas y debilidades del mapa, y un botón para espectar el mapa.
+            - Menu: La pantalla principal de la pantalla, en ella estará el selector de mapa, selector de cantidad de jugadores (cambios de dificultad), acceso a la pantalla de accesibilidad, acceso a los detalles del mapa, la modalidad (mejor de, teamkill, etc), ...
     - Partidas:
         - Asignar las armaduras, dar las herramientas (+El nuevo dash).
         - Dependiendo de la cantidad de jugadores permitir ciertos mapas (toggle) y dentro de ese rango, según la cantidad de gente que haya variar la cantidad de modificadores (toggle de nivel de agresividad, la mecánica seguirá exisitiendo y no se podrá desactivar).
         - Contador visual de vidas, golpes o lo que sea necesario para terminar la partida.
         - Sistemas ya previos a la v2 (AntiSoftlock, Evitar que se vayan muy arriba, etc)
+        - Glowing del color de su equipo para distinguir a sus compañeros.
+        - Las plataformas de spawn se elmininan 10s después del comienzo de la partida.
+    - Modos de juego:
+        - Mace Blasters v2 contará con 3 modos de juego.
+        - Classic Versus:
+            - X vida(s). Default: 1.
+            - Ganará el equipo que derrote al otro antes.
+        - Killer Versus:
+            - X Kill(s). Default: 5.
+            - Ganará el equipo que mate a X veces a miembros del equipo contrario.
+        - Punch Versus:
+            - X Golpe(s). Default: 15.
+            - Ganará el equipo que golpee X veces a miembros del equipo contrario.
     - Powerups:
         - Los powerups estarán a diferentes niveles en el aire, siempre será necesario dar un salto propulsado al menos para alcanzarlas, para recogerlas hay que matarlas (sirven de boosts). Máximo (nºjugadores - 2 hasta 2, donde 1), saldrán powerups de forma aleatoria y cada 7 a 20s. 
         - Tipos de Powerups:
@@ -42,11 +55,20 @@
             - Comunes:
              - Duración -> Los comunes tienen una duración por defecto de entre 30s a 120s
              - Impacto -> El impacto positivo o negativo es débil y no afecta demasiado a la partida
+             - Tipos:
+                - Size boost & Size down ->
+                    - Los jugadores se vuelven entre un 15% y un 30% más grandes y entre un 20% o 5% más pequeños.
+                - Gravity powerage ->
+                    - "Atención! Hay problemas con la gravedad!". Los jugadores verán su gravedad afectada y serán un 25% más ligeros y un 15% más pesados. 
+                - Mixed Colors ->
+                    - Los jugadores verán el color de su glowing y medalla del equipo del TAB afectadas y mezcladas (¿Traición?)
+                - Sticky Situation ->
+                    - Aleatoriamente bloques de slime del mapa se reemplazan por bloques de miel.
             - Raros:
              - Duración -> Los raros tienen una duración por defecto de entre 15s a 60s
              - Impacto -> El impacto positivo o negativo es moderado, los jugadores se pueden ver afectados o implicados en los cambios pero no deben interrumpir la partida.
              - Tipos:
-                - Disco Mode ->
+                - Party Mode! ->
                     - La visión será completamente oscura.
                     - Los jugadores se resaltarán aleatoriamente con glowing del color de su equipo cada 1,5-2,5s.
                     - Si hay lava será siempre visible.
@@ -55,6 +77,9 @@
                     - En los siguientes se ampliarán a 2r y 3r lenta y visualmente con un indicador de sonido.
                     - El tiempo restante aumentará a 4r o 5r lenta y visualmente con un indicador de sonido.
                     - Nota: r significa el radio de bloques de la apertura.
+                - Loopholes ->
+                    - Los agujeros se abrirán como el modificador 'Lava Pits'.
+                    - Al tirarte por un agujero aparecerás X bloques por encima de la posición donde te has tirado.
             - Muy Raros:
              - Duración -> Los muy raros tienen una duración por defecto de entre 5s a 30s
              - Impacto -> El impacto positivo o negativo es inmenso, puede forzar a los jugadores a detener la dinámica de juego o modificar temporalmente de forma total la mecánica del juego.
@@ -73,8 +98,9 @@
                         - 1 Difícil
                 - PvP Mode! ->
                     - La mecánica del juego se reemplazará por completo con el modo PvP
+                    - Al inicio se darán Xs de Feather Falling por si los jugadores estaban volando
                     - Los jugadores recibirán un kit de PvP formado por:
-                        - 1 manzana dorada.
+                        - 1 manzana dorada. (Las manzanas solo dan health Boost)
                         - Armadura de hierro.
                         - Espada de diamante.
                         - Escudo.
