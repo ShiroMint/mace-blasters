@@ -9,16 +9,33 @@
             - Posteriormente se quedará en el lobby y podrás usarlo como display de stats del modo.
                 - Stats: Tiempo jugado en niveles, Niveles superados, Logros conseguidos, Cantidad de muertes, ...
         - 4 Zonas, Training/Tutorial, Easy, Medium, Hard y zona secreta desbloqueable de challenges.
+        - En total: 
     - Sección Training/Tutorial:
+        - 5 niveles.
         - Se enseñará que el armor stand está para dar info y pistas, en la bossbar aparecerá la red de niveles completados, en el scoreboard lateral estará info básica que se refresca cada nivel, ...
-
+    - Sección Easy:
+        - 5 niveles.
+        - Son sencillos, empiezan a introducir mecánicas presentes en los siguientes niveles y como funcionará la progresión del singleplayer (o sea, tutorial sin guia pero se llama Easy).
+    - Sección Medium:
+        - 10 niveles.
+        - Estos niveles empiezan a introducir mecánicas interesantes (máx 3) y puzzles necesarios para superarlos.
+        - El último nivel es un "boss" (challenge con todas las mecánicas del modo Medium)
+    - Sección Hard:
+        - 10 niveles.
+        - Estos nieveles introducen mecánicas complejas (máx 2) y puzzles difíciles para superarlos.
+        - El último nivel es realmente moderado y fácil y será un meme/parodia a "The Cake is a Lie" (Portal)
+    - Sección challenge:
+        - 3 niveles.
+        - Estos niveles mezclan y fusionan mecánicas de todas las secciones, tiene puzzles enrevesados y son de un tamaño bastante grande.
+        - Estarán ocultos hasta que se complete el nivel 30 (nivel 10 sección hard).
+    - Los niveles contarán un un gestor visual de progreso de niveles en la bossbar que aparecerán como completados según se hagan los niveles.
 
 ## MULTIPLAYER
 1. Zona de prácticas
     - Sección con test de mecánica básica (una zona donde te dan y estas como si estuvieras en una arena).
     - Sección donde se prueban todos los powerups que puedes conseguir.
     - Sección donde se pueden probar todos los modificadores de arena.
-    - Camino hacia el Modo Singleplayer.
+    - Camino hacia el Modo Singleplayer. (SOLO PODER ENTRAR EN SINGLEPLAYER O SOLO 1 JUGADOR EN SERVIDOR)
 2. Core Gameplay
     - Pantallas de gestión:
         - Distintas pantallas, al entrar al mundo siempre se pone la title screen con el nombre del minijuego y un start, tras eso el main menu.
@@ -27,6 +44,18 @@
             - Pantallas de juego en curso: Se dividen en 3 pero visualmente son muy parecidas, la separación reside principalmente en que cada pantalla teletransporte (espectar) los jugadores en el lobby al mapa correspondiente. Se podría hacer con una flag que detecte donde hay jugadores y bla bla bla pero esto es más sencillo.
             - Pantalla de detalles del mapa: Se puede clickar sobre el mapa para ver más detalles sobre él. En ella estará una imagen del mapa igual que en el menu, las fortalezas y debilidades del mapa, y un botón para espectar el mapa.
             - Menu: La pantalla principal de la pantalla, en ella estará el selector de mapa, selector de cantidad de jugadores (cambios de dificultad), acceso a la pantalla de accesibilidad, acceso a los detalles del mapa, la modalidad (mejor de, teamkill, etc), ...
+    - Mapas:
+        - Mapa 1 (small) ->
+            - Este mapa es un rework espiritual del primer mapa de Mace Blasters, está basado en él pero es una experiencia totalmente distinta.
+            - Hazards: Lava (no mortal), Miel, Vacío en el centro.
+            - Peculiaridades: Desniveles, formas pequeñas, irregularidades.
+            - Este mapa está pensado para 1v1 y 2v2 pero los jugadores podrán desactivar esa restricción.
+        - Mapa 2 (big) ->
+            - Este mapa es un nuevo añadido original y con diferencias sustanciales al pequeño. Está estructurado de forma vertical.
+            - Hazards: Miel
+            - Peculiaridades: Desniveles, Gran verticalidad.
+            - Este mapa está pensado para 3v3 y 4v4 pero los jugadores podrán desactivar esa restricción.
+    
     - Partidas:
         - Asignar las armaduras, dar las herramientas (+El nuevo dash).
         - Dependiendo de la cantidad de jugadores permitir ciertos mapas (toggle) y dentro de ese rango, según la cantidad de gente que haya variar la cantidad de modificadores (toggle de nivel de agresividad, la mecánica seguirá exisitiendo y no se podrá desactivar).
@@ -34,6 +63,7 @@
         - Sistemas ya previos a la v2 (AntiSoftlock, Evitar que se vayan muy arriba, etc)
         - Glowing del color de su equipo para distinguir a sus compañeros.
         - Las plataformas de spawn se elmininan 10s después del comienzo de la partida.
+        - Para salir del modo espectador detectar un input especifico del jugador.
     - Modos de juego:
         - Mace Blasters v2 contará con 3 modos de juego.
         - Classic Versus:
@@ -48,7 +78,19 @@
     - Powerups:
         - Los powerups estarán a diferentes niveles en el aire, siempre será necesario dar un salto propulsado al menos para alcanzarlas, para recogerlas hay que matarlas (sirven de boosts). Máximo (nºjugadores - 2 hasta 2, donde 1), saldrán powerups de forma aleatoria y cada 7 a 20s. 
         - Tipos de Powerups:
-            - Placeholder
+            - Lanza de Diamante ->
+                - 1 solo uso.
+                - Requiere cooldown (propio del arma)
+                - Te permitirá dashear sin gastar usos del dash y hacer daño a la vez.
+            - Plataform Generator ->
+                - 1 solo uso.
+                - Instantáneo
+                - Duración de 15s.
+                - Genera una plataforma de bloques sólidos voladora debajo tuya siempre que haya aire debajo.
+            - Ender Pearl ->
+                - 1 uso.
+                - Instantáneo.
+                - Te intercambia posiciones con un jugador aleatorio, tiene probabilidad de fallar.
     - Modificadores:
         - Los modificadores de arena estarán en las bossbars donde se hará un display de su nombre y su duración.
         - Tipos de Modificadores:
@@ -130,6 +172,25 @@
 5. IDEA: 
     - Hacer que los dashes funcionen con la barra de la comida como el maná en algunos CTM.
     - También podría usar la de oxígeno para otra cosa.
+6. Gamerules:
+    - advance_weather: false
+    - advance_time: false
+    - block_drops: false
+    - command_block_works: true
+    - entity_drops: false
+    - inmediate_respawn: true
+    - limited_crafting: true
+    - locator_bar: true
+    - mob_drops: false
+    - mob_griefing: false
+    - natural_regeneration: false
+    - show_advancement_messages: false
+    - send_command_feedback: false
+    - spreed_vines: false
+    - tnt_explodes: false
+    - Investigar más.
+7. IDEA:
+    - Preparar un trailer de Mace Blasters v2: Rebounced
 
 
 
@@ -141,6 +202,15 @@
     - Powerups
     - Items
     - GUI
+3. Custom panorama:
+    - Ideas de panorama ->
+        - Una de las arenas
+        - Un escenario montado para la panorámica
+        - El Lobby
+4. RESOURCEPACK validation:
+    - Añadir un sistema para verificar si el usuario tiene el RESOURCEPACK instalado + un recordatorio.
+    - Hacer que los idiomas no traducidos caigan por defecto al inglés.
+5. Preparar el RESOURCEPACK para poder subirlo a Crowdin y permitir a los jugadores traducirlo (A partir de v2.1).
 
 —————————————————————————————————————————————————————————————————————————————————————————
 
