@@ -212,7 +212,7 @@
     - Hacer que los idiomas no traducidos caigan por defecto al inglés.
 5. Preparar el RESOURCEPACK para poder subirlo a Crowdin y permitir a los jugadores traducirlo (A partir de v2.1).
 
-—————————————————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————————————————————————————————————
 
 # NOTAS PERSONALES:
 1. Aprender a usar Axiom y WorldEdit
