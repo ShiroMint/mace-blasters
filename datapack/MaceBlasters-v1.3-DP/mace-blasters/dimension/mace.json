@@ -1,0 +1,17 @@
+{
+  "type": "mace-blasters:lobby_dimension",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "mace-blasters:lobby_biome",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 0,
+          "block": "minecraft:air"
+        }
+      ]
+    }
+  }
+}
