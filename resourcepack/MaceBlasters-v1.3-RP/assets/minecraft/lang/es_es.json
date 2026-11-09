@@ -44,6 +44,7 @@
   "team.cloud_display.1": "Los SkyReapers",
   "team.spark_display": "[⚡ %1$s] ",
   "team.spark_display.1": "Los Sparks",
+  "start_game":"Comenzar Juego",
   "void_space":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
   "void":""
 }

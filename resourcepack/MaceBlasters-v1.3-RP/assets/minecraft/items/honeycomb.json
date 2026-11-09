@@ -27,33 +27,12 @@
           "type": "model",
           "model": "item/vorticepen"
       }
-      },  
-    {
-        "when": "logro-catpu",
-        "model": {
-          "type": "model",
-          "model": "item/mundo"
-      }
-      },
-    {
-        "when": "logro-catse",
-        "model": {
-          "type": "model",
-          "model": "item/interrogacion"
-      }
-      },
-    {
-        "when": "evtema",
-        "model": {
-          "type": "model",
-          "model": "item/evtema"
-      }
       },
       {
         "when": "logo",
         "model": {
           "type": "model",
-          "model": "item/logo"
+          "model": "item/logo_beta"
       }
       },
       {
@@ -61,20 +40,6 @@
         "model": {
           "type": "model",
           "model": "item/skyreapers"
-      }
-      },
-      {
-        "when": "blueskull",
-        "model": {
-          "type": "model",
-          "model": "item/blueskull"
-      }
-      },
-      {
-        "when": "orangeskull",
-        "model": {
-          "type": "model",
-          "model": "item/orangeskull"
       }
       },
       {

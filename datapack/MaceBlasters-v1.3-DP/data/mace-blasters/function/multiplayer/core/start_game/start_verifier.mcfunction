@@ -1,5 +1,6 @@
 # Esta función es la que gestiona todo el comienzo del juego, se encarga de equilibrar las partidas, de avisar si los equipos están desvalanceados y de que gente sin equipo no pueda comenzar la partida.
 # This function is the one that manages the whole start of the game, it is in charge of balancing the games, of warning if the teams are out of balance and that people without equipment cannot start the game.
+execute store result score #count players if entity @a
 scoreboard players set control mace_blasters 0
 
 execute store result score score.team_spark mace_blasters if entity @a[team=team.spark]

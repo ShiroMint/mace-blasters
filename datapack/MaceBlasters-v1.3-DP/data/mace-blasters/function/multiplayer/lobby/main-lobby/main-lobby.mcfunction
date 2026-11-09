@@ -1,8 +1,6 @@
 # Mace Blasters Main Lobby Function
-function mace-blasters:multiplayer/lobby/main-lobby/advancements/below-lobby
 function mace-blasters:multiplayer/lobby/main-lobby/team-selector/jointeam
 function mace-blasters:multiplayer/lobby/main-lobby/minigame/main-minigame
-function mace-blasters:multiplayer/lobby/main-lobby/main-screen/main-screens
 
 # Main Lobby Peculiarities
 effect give @a[x=-16,y=211,z=-4,dx=31,dy=108,dz=43] regeneration 1 255 true
@@ -40,22 +38,6 @@ execute if entity @a[x=0,tag=lobby.particles.50] run particle dust{color:[1.000,
 execute if entity @a[x=0,tag=lobby.particles.50] run particle dust{color:[1.000,0.671,0.098],scale:1} -10 216 35 0.90 0 0 0 2 force
 execute if entity @a[x=0,tag=lobby.particles.50] run particle dust{color:[1.000,0.671,0.098],scale:1} -12 216 33 0 0 0.90 0 2 force
 execute if entity @a[x=0,tag=lobby.particles.50] run particle dust{color:[1.000,0.671,0.098],scale:1} -10 216 31 0.90 0 0 0 2 force
-
-## TODO: Revisar esto! -> cambiado fuera de entorno
-# Partículas selector owner de la pantalla
-execute unless entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=2}] if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=1}] run particle dust{color:[0.490,0.490,0.490],scale:1} 3.9999 216 31 0 0 -0.7 0 2 force
-execute unless entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=2}] if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=1}] run particle dust{color:[0.490,0.490,0.490],scale:1} -2.9999 216 31 0 0 -0.7 0 2 force
-execute unless entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=2}] if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=1}] run particle dust{color:[0.490,0.490,0.490],scale:1} 0 216 29.9 -1.5 0 0 0 2 force
-
-execute unless entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=1}] if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=2}] run particle dust{color:[0.220,0.220,0.220],scale:1} 3.9999 216 31 0 0 -0.7 0 2 force
-execute unless entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=1}] if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=2}] run particle dust{color:[0.220,0.220,0.220],scale:1} -2.9999 216 31 0 0 -0.7 0 2 force
-execute unless entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=1}] if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=2}] run particle dust{color:[0.220,0.220,0.220],scale:1} 0 216 29.9 -1.5 0 0 0 2 force
-
-execute unless entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=..2}] if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=3}] run particle dust{color:[0.220,0.220,0.220],scale:1} 3.9999 216 31 0 0 -0.7 0 2 force
-execute unless entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=..2}] if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=3}] run particle dust{color:[0.220,0.220,0.220],scale:1} -2.9999 216 31 0 0 -0.7 0 2 force
-execute unless entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=..2}] if entity @a[x=0,tag=lobby.particles.50,scores={lobby.screen_owner=3}] run particle dust{color:[0.220,0.220,0.220],scale:1} 0 216 29.9 -1.5 0 0 0 2 force
-
-# 1 = not an owner // 2 = owner // 3 = overrides owner (trigger)
 
 ## Teleport Players to Credits Area
 ## TODO Revisar efecto blindness para que se vea smooth
