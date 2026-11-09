@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:slots": {
+          "inventory.*": {
+            "items": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:slots": {
+          "hotbar.*": {
+            "items": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:slots": {
+          "player.cursor": {
+            "items": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:slots": {
+          "player.crafting.*": {
+            "items": "minecraft:wind_charge"
+          }
+        }
+      }
+    }
+  ]
+}
