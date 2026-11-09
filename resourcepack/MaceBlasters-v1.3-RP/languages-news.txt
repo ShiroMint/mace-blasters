@@ -1,0 +1,14 @@
+ESP:
+¡Buenas! Este txt está simplemente para informar que ahora Mace Blasters (comenzando tras el lanzamiento de la v2) tendrá un Crowdin donde podrás aportar
+tu idioma favorito dentro del minijuego. Para poder formar parte de los traductores entra en el servidor oficial de discord: https://discord.gg/APkw3VVzKb
+y contacta con shirowh_ (Shirø). 
+
+
+ENG:
+Hello! This txt is simply to inform you that Mace Blasters (starting after the release of v2) will now have a Crowdin where you can contribute
+your favorite language to the minigame. To become a translator, join the official Discord server: https://discord.gg/APkw3VVzKb
+and contact shirowh_ (Shirø).
+
+
+
+

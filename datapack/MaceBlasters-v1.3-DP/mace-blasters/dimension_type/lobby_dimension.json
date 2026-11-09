@@ -1,0 +1,34 @@
+{
+  "attributes": {
+    "minecraft:audio/music_volume": 0,
+    "minecraft:visual/sky_color": 9793617,
+    "minecraft:gameplay/can_pillager_patrol_spawn": false,
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/nether_portal_spawns_piglin": false,
+    "minecraft:gameplay/respawn_anchor_works": true,
+    "minecraft:gameplay/surface_slime_spawn_chance": 0,
+    "minecraft:visual/block_light_tint": "#FFD88C",
+    "minecraft:visual/sky_light_color": "#FFFFFF",
+    "minecraft:visual/sky_light_factor": 1,
+    "minecraft:gameplay/bed_rule": {
+      "can_sleep": "always",
+      "can_set_spawn": "always",
+      "explodes": false
+    }
+  },
+  "has_skylight": true,
+  "default_clock": "minecraft:overworld",
+  "has_ceiling": false,
+  "has_ender_dragon_fight": false,
+  "coordinate_scale": 1,
+  "ambient_light": 0,
+  "logical_height": 384,
+  "skybox": "none",
+  "cardinal_light": "default",
+  "infiniburn": "#minecraft:infiniburn_nether",
+  "min_y": -64,
+  "height": 384,
+  "monster_spawn_light_level": 0,
+  "monster_spawn_block_light_limit": 0,
+  "timelines": "mace-blasters:timelinemace"
+}

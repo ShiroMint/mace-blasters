@@ -1,0 +1,89 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/honeycomb"
+    },
+    "cases": [
+      {
+        "when": "shirowh",
+        "model": {
+          "type": "model",
+          "model": "item/shirowh"
+        }
+      },
+      {
+        "when": "vaynilo",
+        "model": {
+          "type": "model",
+          "model": "item/vaynilo"
+		}
+      },
+	  {
+        "when": "vorticepen",
+        "model": {
+          "type": "model",
+          "model": "item/vorticepen"
+      }
+      },  
+    {
+        "when": "logro-catpu",
+        "model": {
+          "type": "model",
+          "model": "item/mundo"
+      }
+      },
+    {
+        "when": "logro-catse",
+        "model": {
+          "type": "model",
+          "model": "item/interrogacion"
+      }
+      },
+    {
+        "when": "evtema",
+        "model": {
+          "type": "model",
+          "model": "item/evtema"
+      }
+      },
+      {
+        "when": "logo",
+        "model": {
+          "type": "model",
+          "model": "item/logo"
+      }
+      },
+      {
+        "when": "skyreapers",
+        "model": {
+          "type": "model",
+          "model": "item/skyreapers"
+      }
+      },
+      {
+        "when": "blueskull",
+        "model": {
+          "type": "model",
+          "model": "item/blueskull"
+      }
+      },
+      {
+        "when": "orangeskull",
+        "model": {
+          "type": "model",
+          "model": "item/orangeskull"
+      }
+      },
+      {
+        "when": "spark",
+        "model": {
+          "type": "model",
+          "model": "item/sparks"
+      }
+      }
+    ]
+  }
+}

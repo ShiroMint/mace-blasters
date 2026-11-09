@@ -1,0 +1,29 @@
+ESP:
+¡Buenas! Shiro al habla (de nuevo...) Si has jugado antiguas versiones de Mace Blasters sabrás que aquí había otro mensaje distinto
+así que si eres un OG, ¡gracias por seguir ahí! Este txt está aquí para los más curiosos y que han entrado a investigar y desentrañar
+el funcionamiento de este minijuego ya no tan modesto. Para hacer un remember del anterior sigo siendo un mapmaker bastante inexperto y
+primerizo pero he querido dar a Mace Blasters un gran lavado de cara. En este caso cuento con otro dev con el que hemos cocinado todo este
+minijuego codo con codo (¡esta vez ya no estoy solo, bien!).
+
+Al igual que la última vez, todo el datapack estará comentado por mí y mi compañero Vaynilo. Los comentarios están de la misma forma, el comentario
+primero en Español y en la línea inferior en Inglés al igual que verás a continuación:
+# Español
+# Inglés
+
+¡Esperamos que disfrutes de este viaje por las entrañas del minijuego! - Shiro 
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+ENG:
+Hi! Shiro talking (again...). If you've played older versions of Mace Blasters, you'll know that there used to be a different message here,
+so if you're an OG, thanks for sticking around! This text is here for the more curious among you who have come to investigate and unravel
+the workings of this no-longer-so-modest minigame. To recap the previous one, I'm still a fairly inexperienced and
+novice mapmaker, but I wanted to give Mace Blasters a major facelift. In this case, I have another dev with whom we've cooked up this entire
+minigame side by side (this time I'm not alone, yay!).
+
+Just like last time, the entire datapack will be commented on by me and my partner Vaynilo. The comments are in the same format, with the comment
+first in Spanish and then in English on the line below, as you will see below:
+# Spanish
+# English
+
+We hope you enjoy this journey through the inner workings of the minigame! - Shiro
