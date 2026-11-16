@@ -33,7 +33,7 @@ item replace entity @a[team=team.spark] armor.feet from block 992 0 1004 contain
 item replace entity @a[team=team.spark] weapon.mainhand from block 992 0 1004 container.4
 item replace entity @a[team=team.spark] weapon.offhand from block 992 0 1004 container.5
 
-tp @a[team=team.spark] 0 217 0 -180 0
-tp @a[team=team.sky] 0 217 0 0 0
+execute in mace-blasters:mace run tp @a[team=team.spark] 0 217 0 -180 0
+execute in mace-blasters:mace run tp @a[team=team.sky] 0 217 0 0 0
 
 schedule function mace-blasters:multiplayer/core/start_game/cuenta_atras/start_countdown 1t

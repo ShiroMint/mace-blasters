@@ -7,6 +7,7 @@ team add team.lobby
 team add team.spark
 team add team.sky
 team add team.lobbyminigame
+team add team.spectator
 
 scoreboard objectives add display.health health
 scoreboard objectives add mace_blasters dummy
@@ -31,6 +32,9 @@ scoreboard players enable @a spectator.exit_slime
 scoreboard players enable @a spectator.exit_general
 scoreboard objectives setdisplay list display.health
 scoreboard objectives add golem_count dummy
+scoreboard objectives add arena.total_players dummy
+scoreboard objectives add arena.sky_count dummy
+scoreboard objectives add arena.spark_count dummy
 
 scoreboard players enable @a trigger.exit_spectatormode
 scoreboard players enable @a trigger.force.start_minigame
