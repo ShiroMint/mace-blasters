@@ -58,8 +58,8 @@ execute as @a run scoreboard players set @s golems_hit 0
 #
 
 # Si los jugadores están dentro del campo de batalla mantienen esta función ejecutada. //  If the players are inside the battlefield they keep this function executed.
-execute if score in_game mace_blasters matches 1 as @a[x=0,team=team.sky] at @a[x=1008,y=-13,z=972,dx=44,dy=60,dz=57] run function mace-blasters:core/security_checks/why_justwhy
-execute if score in_game mace_blasters matches 1 as @a[x=0,team=team.spark] at @a[x=1008,y=-13,z=972,dx=44,dy=60,dz=57] run function mace-blasters:core/security_checks/why_justwhy
+execute if score in_game mace_blasters matches 1 as @a[x=0,team=team.sky] at @a[x=1008,y=-13,z=972,dx=44,dy=60,dz=57] run function mace-blasters:multiplayer/core/security_checks/check_items
+execute if score in_game mace_blasters matches 1 as @a[x=0,team=team.spark] at @a[x=1008,y=-13,z=972,dx=44,dy=60,dz=57] run function mace-blasters:multiplayer/core/security_checks/check_items
 ## TODO: Cambiar sky/spa.must_attack por otro string apto para traducciones.
 execute if score in_game mace_blasters matches 1 as @a[x=0,team=team.spark] at @a[x=1008,y=-13,z=972,dx=44,dy=60,dz=57] run title @a[team=team.spark] actionbar [{"translate":"spa.must_attack"}]
 execute if score in_game mace_blasters matches 1 as @a[x=0,team=team.sky] at @a[x=1008,y=-13,z=972,dx=44,dy=60,dz=57] run title @a[team=team.sky] actionbar [{"translate":"sky.must_attack"}]
