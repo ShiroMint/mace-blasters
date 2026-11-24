@@ -3,16 +3,16 @@
 
 execute as @e[type=item] if items entity @s contents wind_charge run kill @s
 
-execute as @a unless predicate mace-blasters:windcharge_check run item replace entity @s[team=team.sky] weapon.offhand with wind_charge[custom_name=[{"bold":true,"color":"#FFFFFF","text":"W"},{"color":"#EEEEEE","text":"i"},{"color":"#DEDEDE","text":"n"},{"color":"#CDCDCD","text":"d "},{"color":"#BCBCBC","text":"S"},{"color":"#ABABAB","text":"p"},{"color":"#9B9B9B","text":"h"},{"color":"#8A8A8A","text":"e"},{"color":"#797979","text":"r"},{"color":"#686868","text":"e"},{"color":"#474747","text":"s"}],unbreakable={}] 64
+execute as @a unless predicate mace-blasters:windcharge_check run item replace entity @s[team=team.sky] weapon.offhand with wind_charge[unbreakable={}] 64
 execute if predicate mace-blasters:windcharge_check run tag @s[team=team.sky] add core.security.fix_windcharge
 execute as @a[tag=core.security.fix_windcharge] run clear @s[team=team.spark] minecraft:wind_charge
-execute as @a[tag=core.security.fix_windcharge] run item replace entity @s[team=team.sky] weapon.offhand with wind_charge[custom_name=[{"bold":true,"color":"#FFFFFF","text":"W"},{"color":"#EEEEEE","text":"i"},{"color":"#DEDEDE","text":"n"},{"color":"#CDCDCD","text":"d "},{"color":"#BCBCBC","text":"S"},{"color":"#ABABAB","text":"p"},{"color":"#9B9B9B","text":"h"},{"color":"#8A8A8A","text":"e"},{"color":"#797979","text":"r"},{"color":"#686868","text":"e"},{"color":"#474747","text":"s"}],unbreakable={}] 64
+execute as @a[tag=core.security.fix_windcharge] run item replace entity @s[team=team.sky] weapon.offhand with wind_charge[unbreakable={}] 64
 tag @a[tag=core.security.fix_windcharge] remove core.security.fix_windcharge
 
-execute as @a unless predicate mace-blasters:windcharge_check run item replace entity @s[team=team.spark] weapon.offhand with wind_charge[custom_name=[{"bold":true,"color":"#FFFFFF","text":"W"},{"color":"#EEEEEE","text":"i"},{"color":"#DEDEDE","text":"n"},{"color":"#CDCDCD","text":"d "},{"color":"#BCBCBC","text":"S"},{"color":"#ABABAB","text":"p"},{"color":"#9B9B9B","text":"h"},{"color":"#8A8A8A","text":"e"},{"color":"#797979","text":"r"},{"color":"#686868","text":"e"},{"color":"#474747","text":"s"}],unbreakable={}] 64
+execute as @a unless predicate mace-blasters:windcharge_check run item replace entity @s[team=team.spark] weapon.offhand with wind_charge[unbreakable={}] 64
 execute if predicate mace-blasters:windcharge_check run tag @s[team=team.spark] add core.security.fix_windcharge
 execute as @a[tag=core.security.fix_windcharge] run clear @s[team=team.spark] minecraft:wind_charge
-execute as @a[tag=core.security.fix_windcharge] run item replace entity @s[team=team.spark] weapon.offhand with wind_charge[custom_name=[{"bold":true,"color":"#FFFFFF","text":"W"},{"color":"#EEEEEE","text":"i"},{"color":"#DEDEDE","text":"n"},{"color":"#CDCDCD","text":"d "},{"color":"#BCBCBC","text":"S"},{"color":"#ABABAB","text":"p"},{"color":"#9B9B9B","text":"h"},{"color":"#8A8A8A","text":"e"},{"color":"#797979","text":"r"},{"color":"#686868","text":"e"},{"color":"#474747","text":"s"}],unbreakable={}] 64
+execute as @a[tag=core.security.fix_windcharge] run item replace entity @s[team=team.spark] weapon.offhand with wind_charge[unbreakable={}] 64
 tag @a[tag=core.security.fix_windcharge] remove core.security.fix_windcharge
 
 
