@@ -9,4 +9,4 @@ playsound minecraft:block.note_block.pling master @a[team=team.spark] ~ ~ ~ 100 
 playsound minecraft:entity.ender_dragon.ambient master @a[team=team.sky] ~ ~ ~ 20 2
 playsound minecraft:entity.ender_dragon.ambient master @a[team=team.spark] ~ ~ ~ 20 2
 schedule function mace-blasters:core/golem_modifier/wind_golem_start 1s
-function mace-blasters:multiplayer/core/start_game/cuenta_atras/unlock_cages
+function mace-blasters:multiplayer/core/start_game/countdown/unlock_cages

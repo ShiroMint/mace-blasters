@@ -4,4 +4,4 @@ title @a[tag=core.can_see_countdown] subtitle {"bold":true,"color":"green","text
 playsound minecraft:block.note_block.pling master @a[team=team.sky] 1030.53 19.00 973.66 100 1.5
 playsound minecraft:block.note_block.pling master @a[team=team.spark] 1030.52 19.00 1028.51 100 1.5
 
-schedule function mace-blasters:multiplayer/core/start_game/cuenta_atras/countdown_finish 1s
+schedule function mace-blasters:multiplayer/core/start_game/countdown/countdown_finish 1s

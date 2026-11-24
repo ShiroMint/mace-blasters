@@ -23,7 +23,7 @@ data remove entity @e[x=0,type=interaction,tag=interaction.core.screen.startgame
 #
 
 # Si alguien muere, se ejecuta la función que gestiona que muera 1 jugador. //  If someone dies, the function that manages the death of 1 player is executed.
-execute if score in_game mace_blasters matches 1 as @a[scores={minigame.death_count=1..}] run function mace-blasters:multiplayer/core/end_game/eliminar-jugador
+execute if score in_game mace_blasters matches 1 as @a[scores={minigame.death_count=1..}] run function mace-blasters:multiplayer/core/end_game/remove-player
 scoreboard players reset @a[x=0,scores={minigame.death_count=1..}] minigame.death_count
 #
 

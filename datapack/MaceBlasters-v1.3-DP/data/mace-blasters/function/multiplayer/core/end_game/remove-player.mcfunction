@@ -5,7 +5,7 @@ clear @s
 tag @s add spectator.in_game
 team leave @s
 execute store result score score.team_spark mace_blasters if entity @a[team=team.spark]
-execute store result score score.team_spark mace_blasters if entity @a[team=team.sky]
+execute store result score score.team_sky mace_blasters if entity @a[team=team.sky]
 
 execute if score score.team_spark mace_blasters matches 0 run function mace-blasters:multiplayer/core/end_game/end-game
 execute if score score.team_sky mace_blasters matches 0 run function mace-blasters:multiplayer/core/end_game/end-game

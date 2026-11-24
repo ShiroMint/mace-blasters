@@ -4,4 +4,4 @@ title @a[tag=core.can_see_countdown] subtitle {"bold":true,"color":"gold","text"
 playsound minecraft:block.note_block.pling master @a[team=team.sky] ~ ~ ~ 100 1
 playsound minecraft:block.note_block.pling master @a[team=team.spark] ~ ~ ~ 100 1
 
-schedule function mace-blasters:multiplayer/core/start_game/cuenta_atras/countdown_step2 1s
+schedule function mace-blasters:multiplayer/core/start_game/countdown/countdown_step2 1s
