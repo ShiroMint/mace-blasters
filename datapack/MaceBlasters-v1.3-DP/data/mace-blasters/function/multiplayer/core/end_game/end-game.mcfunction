@@ -5,7 +5,6 @@ execute unless score score.team_sky mace_blasters matches 0 run title @a title [
 execute unless score score.team_sky mace_blasters matches 0 run title @a subtitle [{"translate":"win_s","with":[{"translate":"win_s.1","color":"#7D98FF", bold: true},{"translate":"win_s.2", "color": "#829DFF", bold: true},{"translate":"win_s.3","color":"#87A2FF", bold: true},{"translate":"win_s.4","color": "#8BA6FF", bold: true},{"translate":"win_s.5","color":"#7D98FF", bold: true},{"translate":"win_s.6","color":"#829DFF", bold: true},{"translate":"win_s.7", "color": "#87A2FF", bold: true},{"translate":"win_s.8","color":"#8BA6FF", bold: true},{"translate":"win_s.9","color": "#8BA6FF", bold: true}]}]
 
 # Mueve a los iron golems y los mata (los muevo para que no hagan ruido al morir, que es bastante si quedan muchos en el mapa) y dejo de programar que aparezcan más //  Move the iron golems and kill them (I move them so they don't make noise when they die, which is quite a lot if there are many left on the map) and stop scheduling more to appear.
-tp @e[tag=entity.arena_modifier.iron_boost] 10324 -72 997
 kill @e[tag=entity.arena_modifier.iron_boost]
 execute as @a run schedule clear mace-blasters:multiplayer/core/golem_modifier/wind_golem
 execute as @a run schedule function mace-blasters:multiplayer/core/security_checks/check_spectator 35t
