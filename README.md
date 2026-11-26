@@ -8,13 +8,13 @@ This GitHub repository has been created to help me save the project in many devi
 ### Links to MaceBlasters:
 - (Main[Slow]) Curseforge: https://www.curseforge.com/minecraft/worlds/mace-blasters
 - (Fast Option) PlanetMinecraft: https://www.planetminecraft.com/project/mace-blasters-v1/
-- (No longer maintained) MCCreations: https://www.mccreations.net/en-US/maps/mace_blasters
+- (Alternative Option) MCCreations: https://www.mccreations.net/en-US/maps/mace_blasters
 
 ### "Click and play" sites:
-- (outdated) Mapverse: https://mapverse.net/map/mace-blasters
+- Mapverse: https://mapverse.net/map/mace-blasters
 - StickyPiston: https://trial.stickypiston.co/map/maceblasters
 
 # Mace blasters v2 it's still in development!
-**Progress:** ███░░░░░░░░░░░░░░░░░  20%
+**Progress:** ████░░░░░░░░░░░░░░░░  25%
 
 Note: this progress bar is very orientative.
