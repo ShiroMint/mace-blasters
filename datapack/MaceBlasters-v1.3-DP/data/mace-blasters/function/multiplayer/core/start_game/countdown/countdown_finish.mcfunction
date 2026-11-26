@@ -4,9 +4,9 @@ execute as @a[tag=core.can_see_countdown] run title @s times 2t 1s 5t
 title @a[tag=core.can_see_countdown] title {"translate":"starting_go","color":"green","bold":true}
 title @a[tag=core.can_see_countdown] subtitle {"bold":true,"color":"green","text":""}
 tag @a remove core.can_see_countdown
-playsound minecraft:block.note_block.pling master @a[team=team.sky] ~ ~ ~ 100 2
-playsound minecraft:block.note_block.pling master @a[team=team.spark] ~ ~ ~ 100 2
-playsound minecraft:entity.ender_dragon.ambient master @a[team=team.sky] ~ ~ ~ 20 2
-playsound minecraft:entity.ender_dragon.ambient master @a[team=team.spark] ~ ~ ~ 20 2
-schedule function mace-blasters:core/golem_modifier/wind_golem_start 1s
+execute in mace-blasters:mace run playsound minecraft:block.note_block.pling master @a[team=team.sky] 171 252 1017 100 2
+execute in mace-blasters:mace run playsound minecraft:block.note_block.pling master @a[team=team.spark] 171 252 1072 100 2
+execute in mace-blasters:mace run playsound minecraft:entity.ender_dragon.ambient master @a[team=team.sky] 171 252 1017 20 2
+execute in mace-blasters:mace run playsound minecraft:entity.ender_dragon.ambient master @a[team=team.spark] 171 252 1072 20 2
+schedule function mace-blasters:multiplayer/core/golem_modifier/wind_golem_start 1t
 function mace-blasters:multiplayer/core/start_game/countdown/unlock_cages

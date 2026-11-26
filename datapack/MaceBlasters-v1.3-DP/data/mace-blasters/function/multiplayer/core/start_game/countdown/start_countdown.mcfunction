@@ -2,7 +2,7 @@
 title @a times 10t 5s 10t
 title @a[tag=core.can_see_countdown] title [{"translate":"game_starting"}]
 title @a[tag=core.can_see_countdown] subtitle {"bold":true,"color":"red","text":"3"}
-playsound minecraft:block.note_block.pling master @a[team=team.sky] ~ ~ ~ 100 0.5
-playsound minecraft:block.note_block.pling master @a[team=team.spark] ~ ~ ~ 100 0.5
+execute in mace-blasters:mace run playsound minecraft:block.note_block.pling master @a[team=team.sky] 171 252 1017 100 0.5
+execute in mace-blasters:mace run playsound minecraft:block.note_block.pling master @a[team=team.spark] 171 252 1072 100 0.5
 
 schedule function mace-blasters:multiplayer/core/start_game/countdown/countdown_step1 1s
