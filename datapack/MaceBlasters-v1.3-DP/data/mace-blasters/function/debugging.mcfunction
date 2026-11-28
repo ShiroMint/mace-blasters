@@ -23,15 +23,23 @@ tag @a remove lobby.particles.7695
 tag @a remove lobbyminigame.fix_windcharges
 tag @a remove player.lobbyminigame_join
 tag @a remove lobby.falling
+tag @a[team=team.spectator] add spectator.check
 
 team join team.lobby @a
 
-## TODO: CAMBIAR COORDS
-tp @a 0 200 0
+tp @a @e[type=marker,tag=marker.lobby_spawn,limit=1]
 
 clear @a
 
-tp @e[tag=arena_modifier.iron_boost.spawn] 0 0 0
-kill @e[tag=arena_modifier.iron_boost.spawn] 0 0 0
+tp @e[type=iron_golem] 170 100 1040
+kill @e[type=iron_golem]
 
 schedule clear mace-blasters:multiplayer/core/golem_modifier/wind_golem
+
+gamemode adventure @a
+
+## scoreboard players reset * mostrado
+scoreboard players set in_game mace_blasters 0
+scoreboard players reset * golems_hit
+scoreboard players reset * hit_count
+scoreboard objectives setdisplay sidebar

@@ -1,6 +1,5 @@
 # Esta es la función que se encarga, en caso de que se den los requerimientos de empezar la partida o forzarla, de preparar el minijuego, prepara los scoreboards, prepara los jugadores para que puedan ver la cuenta atrás, los equipa, les da el efecto, les hace tp e inicia la secuencia de comienzo.
 # This is the function that takes care, in case the requirements to start the game or force it, of preparing the mini-game, prepares the scoreboards, prepares the players so that they can see the countdown, equips them, gives them the effect, makes them tp and initiates the starting sequence.
-function mace-blasters:multiplayer/core/start_game/countdown/lock_cages
 scoreboard players set in_game mace_blasters 1
 scoreboard players reset @a hit_count
 scoreboard players reset @a hit_count
@@ -36,4 +35,5 @@ item replace entity @a[team=team.spark] weapon.offhand from block 992 0 1004 con
 execute in mace-blasters:mace run tp @a[team=team.spark] 171 252 1072 -180 0
 execute in mace-blasters:mace run tp @a[team=team.sky] 171 252 1017 0 0
 
+function mace-blasters:multiplayer/core/start_game/countdown/lock_cages
 schedule function mace-blasters:multiplayer/core/start_game/countdown/start_countdown 1s

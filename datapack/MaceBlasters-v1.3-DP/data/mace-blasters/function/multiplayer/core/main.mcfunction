@@ -44,7 +44,7 @@ execute as @a[scores={trigger.force.start_minigame=1..}] run schedule function m
 tellraw @s[scores={trigger.force.start_minigame=1..}] {"fallback":"void_space","translate":"void_space"}
 scoreboard players set @a[scores={trigger.force.start_minigame=1..}] trigger.force.start_minigame 0
 
-## EN LA LINEA DE ABAJO ES LA FUNCTION: mace-blasters:unlockmeplease
+## EN LA LINEA DE ABAJO ES LA FUNCTION: mace-blasters:debugging
 execute as @a[scores={trigger.force.end_minigame=1..}] run function mace-blasters:debugging
 tellraw @s[scores={trigger.force.end_minigame=1..}] {"fallback":"void_space","translate":"void_space"}
 scoreboard players set @a[scores={trigger.force.end_minigame=1..}] trigger.force.end_minigame 0

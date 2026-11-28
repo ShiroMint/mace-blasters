@@ -33,11 +33,7 @@ scoreboard objectives add arena.sky_count dummy
 scoreboard objectives add arena.spark_count dummy
 scoreboard objectives add core.security.softlock_check dummy
 
-scoreboard players enable @a trigger.exit_spectatormode
 scoreboard players enable @a trigger.force.start_minigame
 scoreboard players enable @a trigger.force.end_minigame
-scoreboard players enable @a spectator.exit_lava
-scoreboard players enable @a spectator.exit_slime
-scoreboard players enable @a spectator.exit_general
 
 scoreboard objectives setdisplay list display.health
